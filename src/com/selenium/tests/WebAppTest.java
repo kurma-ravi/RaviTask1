@@ -11,7 +11,7 @@ public class WebAppTest {
 	@Test
 	public void loginTest() {
 		WebDriver driver = new HtmlUnitDriver(true);
-		driver.get("http://52.66.207.5:8080/webapp");
+		driver.get("http://13.233.124.116:8080/webapp");
 		driver.findElement(By.id("username")).sendKeys("swastik");
 		driver.findElement(By.id("password")).sendKeys("swastik");
 		driver.findElement(By.xpath("//button[text()='Click Me']")).click();
